@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!--Jump of faith-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>USH_JumpOfFaith</defName>
+    <label>leap of faith</label>
+    <description>Psychically strengthens caster’s lower limbs, allowing them to jump to a desired position with great speed and height.</description>
+    <iconPath>Abilities/Anomaly/JumpOfFaith</iconPath>
+    <abilityClass>MatrixRimloaded.Ability_JumpOfFaith</abilityClass>
+    <warmupSound>USH_NullSound</warmupSound>
+    <castTime>3</castTime>
+    <showUndrafted>false</showUndrafted>
+    <targetMode>Location</targetMode>
+    <range>20.9</range>
+    <rangeStatFactors>
+      <PsychicSensitivity>1</PsychicSensitivity>
+    </rangeStatFactors>
+    <castSound>USH_JumpOfFaith_Cast</castSound>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>1</level>
+        <order>1</order>
+        <psyfocusCost>0.06</psyfocusCost>
+        <entropyGain>8</entropyGain>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--Hyper-vision-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>USH_Supervision</defName>
+    <label>hyper-vision</label>
+    <description>Bestows a higher awareness of the surroundings and makes the caster see the world as it really is. With enhanced vision and reflexes, the caster is able to shoot far more swiftly and accurately.</description>
+    <iconPath>Abilities/Anomaly/Supervision</iconPath>
+    <castSound>USH_Supervision_Cast</castSound>
+    <warmupSound>USH_NullSound</warmupSound>
+    <targetMode>Self</targetMode>
+    <castTime>6</castTime>
+    <showUndrafted>false</showUndrafted>
+    <durationTime>14400</durationTime>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>2</level>
+        <order>2</order>
+        <psyfocusCost>0.12</psyfocusCost>
+        <entropyGain>20</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>USH_JumpOfFaith</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>USH_Supervision</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--BulletDodge-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>USH_BulletTime</defName>
+    <label>bullet time</label>
+    <description>The caster supercharges their spatial awareness and nervous system so they can react with inhuman reflexes and dodge every threatening object. This ability also increases consciousness by boosting neural connectivity.</description>
+    <iconPath>Abilities/Anomaly/BulletTime</iconPath>
+    <castSound>USH_BulletDodge_Cast</castSound>
+    <targetMode>Self</targetMode>
+    <castTime>15</castTime>
+    <showUndrafted>false</showUndrafted>
+    <durationTime>2400</durationTime>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>2</level>
+        <order>1</order>
+        <psyfocusCost>0.3</psyfocusCost>
+        <entropyGain>35</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>USH_Supervision</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>USH_BulletDodge</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--Near-Invulnerability-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>USH_NearInvulnerability</defName>
+    <label>near-invulnerability</label>
+    <description>Psychically strengthens skin cells, making them inhumanly resistant to sharp and blunt attacks.</description>
+    <iconPath>Abilities/Anomaly/NearInvulnerability</iconPath>
+    <castSound>USH_NearInvulnerability_Cast</castSound>
+    <targetMode>Self</targetMode>
+    <castTime>60</castTime>
+    <showUndrafted>false</showUndrafted>
+    <durationTime>4800</durationTime>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>2</level>
+        <order>3</order>
+        <psyfocusCost>0.18</psyfocusCost>
+        <entropyGain>30</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>USH_Supervision</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>USH_NearInvulnerability</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--Psychic Flight-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>USH_PsychicFlight</defName>
+    <label>psychic flight</label>
+    <description>Manipulates natural psychic fields so they can interact with the casters physical body and move it across the world in a range of eight tiles. Before take off, the flyer can take a few people surrounding him to fly with him.</description>
+    <iconPath>Abilities/Anomaly/PsychicFlight</iconPath>
+    <abilityClass>MatrixRimloaded.Ability_WorldTeleportAnomaly</abilityClass>
+    <radius>1.9</radius>
+    <castTime>100</castTime>
+    <targetMode>Tile</targetMode>
+    <radiusRingColor>(0.31, 0.62, 0.2)</radiusRingColor>
+    <castSound>USH_PsychicFlight_Cast</castSound>
+    <range>8</range>
+    <worldTargeting>true</worldTargeting>
+    <needsTicking>true</needsTicking>
+    <showGizmoOnWorldView>true</showGizmoOnWorldView>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>3</level>
+        <order>1</order>
+        <psyfocusCost>0.32</psyfocusCost>
+        <entropyGain>18</entropyGain>
+        <prerequisites>
+          <li>USH_BulletTime</li>
+        </prerequisites>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--Power fists-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+    <defName>USH_PowerFists</defName>
+    <label>superhuman speed</label>
+    <description>Psychically increases energy production in mitochondria, simultaneously magnifying the caster’s metabolism while greatly boosting their movement speed and melee prowess.</description>
+    <iconPath>Abilities/Anomaly/PowerFists</iconPath>
+    <castSound>USH_PowerFists_Cast</castSound>
+    <warmupSound>USH_NullSound</warmupSound>
+    <targetMode>Self</targetMode>
+    <castTime>20</castTime>
+    <showUndrafted>false</showUndrafted>
+    <durationTime>2400</durationTime>
+    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>3</level>
+        <order>2</order>
+        <psyfocusCost>0.14</psyfocusCost>
+        <entropyGain>25</entropyGain>
+        <psychic>true</psychic>
+        <prerequisites>
+          <li>USH_NearInvulnerability</li>
+        </prerequisites>
+      </li>
+      <li Class="VFECore.Abilities.AbilityExtension_Hediff">
+        <hediff>USH_PowerFists</hediff>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--Implosion WIP-->
+  <!--<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+      <defName>USH_Implosion</defName>
+      <label>implosion</label>
+      <description>Attracts a huge amount of surrounding matter to one spot, which then collapses under enormous pressure into a dense chunk of matter. The inherently unstable nature of this chunk leads to it rapidly expanding, with the resulting energy forming a near-instant explosion.</description>
+      <iconPath>Abilities/Anomaly/Implosion</iconPath>
+	  <showUndrafted>false</showUndrafted>
+	  <abilityClass>MatrixRimloaded.Ability_Implode</abilityClass>
+	  <range>14.9</range>
+      <radius>7</radius>
+      <targetMode>Location</targetMode>
+      <castTime>30</castTime>
+      <castSound>VPE_Explosion</castSound>
+      <modExtensions>
+        <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+          <path>USH_Anomaly</path>
+		  <level>4</level>
+		  <order>2</order>
+          <psyfocusCost>0.14</psyfocusCost>
+          <entropyGain>25</entropyGain>
+          <psychic>true</psychic>
+          <prerequisites>
+            <li>USH_PowerFists</li>
+          </prerequisites>
+        </li>
+		<li Class="VFECore.Abilities.AbilityExtension_Explosion">
+          <explosionRadius>7</explosionRadius>
+          <onCaster>false</onCaster>
+          <explosionDamageDef>Flame</explosionDamageDef>
+          <casterImmune>false</casterImmune>
+        </li>
+      </modExtensions>
+    </VFECore.Abilities.AbilityDef>-->
+  <!--Skill Hack-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastGoToTargetBase">
+    <defName>USH_SkillSetLoad</defName>
+    <label>skill hack</label>
+    <description>Hacks a distant, ancient server that contains knowledge of a desired skill set and then rips the collected data to the targeted mind. The sheer amount of psychic stress accumulated all at once from using this ability leads to the caster falling into a two hour long psychic coma.</description>
+    <iconPath>Abilities/Anomaly/SkillSetLoad</iconPath>
+    <abilityClass>MatrixRimloaded.Ability_SkillHack</abilityClass>
+    <castSound>USH_SkillSetHack_Cast</castSound>
+    <distanceToTarget>1.5</distanceToTarget>
+    <cooldownTime>480000</cooldownTime>
+    <targetMode IsNull="True" />
+    <targetCount>1</targetCount>
+    <targetModes>
+      <li>Pawn</li>
+    </targetModes>
+    <targetingParametersList>
+      <li>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetHumans>True</canTargetHumans>
+        <canTargetAnimals>False</canTargetAnimals>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetBuildings>False</canTargetBuildings>
+      </li>
+    </targetingParametersList>
+    <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+    <showUndrafted>true</showUndrafted>
+    <castTime>400</castTime>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>4</level>
+        <order>3</order>
+        <psyfocusCost>0.62</psyfocusCost>
+        <entropyGain>50</entropyGain>
+        <prerequisites>
+          <li>USH_PowerFists</li>
+        </prerequisites>
+      </li>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_PsychicComa">
+        <hours>2</hours>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+  <!--Phasing-->
+  <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastGoToTargetBase">
+    <defName>USH_Phasing</defName>
+    <label>strings of fate</label>
+    <description>Psychically dematerializes the caster’s arms into a psychic field surrounding a fresh cadaver, allowing the caster to manipulate the fabric of reality in that specific area. This allows the caster to resurrect the body to near perfect health. However, the intense concentration and psychic stress created from performing this ability will put the caster into a one-day-long coma and induce a crippling amount of pain in the resurrected.</description>
+    <iconPath>Abilities/Anomaly/Phasing</iconPath>
+    <abilityClass>MatrixRimloaded.Ability_Phasing</abilityClass>
+    <castSound>USH_Phasing_Cast</castSound>
+    <castTime>600</castTime>
+    <reserveTargets>true</reserveTargets>
+    <targetingParameters>
+      <canTargetLocations>False</canTargetLocations>
+      <canTargetSelf>False</canTargetSelf>
+      <canTargetAnimals>False</canTargetAnimals>
+      <canTargetPawns>False</canTargetPawns>
+      <canTargetHumans>False</canTargetHumans>
+      <canTargetItems>true</canTargetItems>
+      <thingCategory>Item</thingCategory>
+      <mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+    </targetingParameters>
+    <showUndrafted>true</showUndrafted>
+    <modExtensions>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+        <path>USH_Anomaly</path>
+        <level>5</level>
+        <order>1</order>
+        <psyfocusCost>0.8</psyfocusCost>
+        <entropyGain>0</entropyGain>
+        <prerequisites>
+          <li>USH_SkillSetLoad</li>
+        </prerequisites>
+      </li>
+      <li Class="VanillaPsycastsExpanded.AbilityExtension_PsychicComa">
+        <hours>24</hours>
+      </li>
+    </modExtensions>
+  </VFECore.Abilities.AbilityDef>
+</Defs>

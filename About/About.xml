@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Matrix Rimloaded (Continued)</name>
+  <packageId>Mlie.MatrixRimloaded</packageId>
+  <author>Ushanka</author>
+  <url>https://github.com/emipa606/MatrixRimloaded</url>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+      <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+    </li>
+    <li>
+      <packageId>VanillaExpanded.VPsycastsE</packageId>
+      <displayName>Vanilla Psycasts Expanded</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2842502659</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>VanillaExpanded.VPsycastsE</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Ushankas mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2854701764
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/MatrixRimloaded][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img] https://i.imgur.com/4Le2MFH.png [/img]
+
+[url=https://steamcommunity.com/workshop/filedetails/?id=2023507013][img]https://i.imgur.com/N7PmE7J.png[/img][/url]
+
+Matrix Rimloaded aims to add the Matrix movie experience to Rimworld. It was my first idea for a mod and Vanilla Psycasts Expanded made it possible. With this mod you will be able to recreate classical scenes featuring Neo, Morpheus and Trinity. You will dodge bullets, jump across the map, take flight, fist fight with superhuman speed and more.
+
+[img] https://i.imgur.com/nF6Nhd5.png [/img]
+
+Matrix Rimloaded adds 1 psycast path called “Anomaly” and 8 new polished abilities with 2 or possibly 3 more coming soon. It adds a new way to teach colonists skills and resurrect them.
+
+Everything is kept in a vanilla style and is intended to be as balanced as possible. If you have any ideas on how to improve the balance of this mod, please let me know down in the comments.
+
+[img] https://i.imgur.com/OiDijWM.png [/img]
+
+[img] https://i.imgur.com/hgnVcSd.png [/img]
+
+All abilities are inspired by Matrix movie series. The only two that you won’t see in the movies are implosion and telekinesis. I am working on them, but it is a tricky task.
+
+Skill hack ability works like a never-ending skilltrainer so it gives much less experience points per use and the cooldown is eight days. I think that's fairly balanced.
+
+Bullet dodge allows you to dodge all incoming projectiles including missiles and mortar shells.
+Near-Invulnerability slows the caster dramatically, so it nicely mixes with the superhuman speed ability.
+
+I find it extremely satisfying to enable autocast on all of them and watch my pawn take down armies of enemies while jumping, attacking rapidly and dodging everything except for melee assaults.
+
+Of course, for balancing reasons, some of the abilities last very little, and the famous bullet dodge, for example, lasts only one in game hour.
+
+[img] https://i.imgur.com/qWX3xng.png [/img]
+
+Nothing has been reported yet. Tho, there shouldn’t be any incompatibilities.
+
+[img] https://i.imgur.com/UeL4XRh.png [/img]
+Q: Can I add it mid-play to an existing save?
+A: Yes.
+
+Q: Can I remove it mid-play?
+A: Nope.
+
+[img] https://i.imgur.com/CAuzJT9.png [/img]
+
+While reporting a matrix glitch, please always use HugsLib and always check your mod load order. Every matrix glitch report is very valuable to me, but try to include as much information as possible. Thank you.
+
+[img] https://i.imgur.com/hbyoBiw.png [/img]
+
+Graphics, programming and writing all done by me.
+
+Most of the English text has been corrected by CatLover366. Huge thanks for that!
+
+Alternative background picture was made using Womba Dream AI.
+
+Most of the sound effects are from freesound.org
+
+Most of the non-base-game items used in mod description images are from vanilla expanded series.
+
+And of course, Rimworld is owned by Tynan Sylvester.
+
+If you enjoy the content I'm making, you can buy me some coffee. Thanks!
+[url=https://ko-fi.com/ushankas][img]https://i.imgur.com/8rnNAct.png[/img][/url]
+	
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>

@@ -46,7 +46,7 @@ public class Ability_Phasing : Ability_TargetCorpse
             }
         }
 
-        ResurrectionUtility.ResurrectWithSideEffects(innerPawn);
+        ResurrectionUtility.TryResurrectWithSideEffects(innerPawn);
         if (!innerPawn.Spawned)
         {
             GenSpawn.Spawn(innerPawn, target.Position, target.Map);

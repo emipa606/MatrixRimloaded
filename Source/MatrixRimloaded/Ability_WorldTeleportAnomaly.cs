@@ -113,7 +113,7 @@ public class Ability_WorldTeleportAnomaly : Ability
                         def.castFleckScaleWithRadius ? GetRadiusForPawn() : def.castFleckScale, def.castFleckSpeed);
                 }
 
-                var unused = Caster.Map;
+                _ = Caster.Map;
                 FleckMaker.ThrowSmoke(p.DrawPos, p.Map, 1f);
                 FleckMaker.ThrowDustPuffThick(p.DrawPos, p.Map, 2f, new Color(1f, 1f, 1f, 2.5f));
             }
@@ -136,7 +136,7 @@ public class Ability_WorldTeleportAnomaly : Ability
             targetCell = alliedPawnCell;
         }
 
-        var unused = def.GetModExtension<AbilityExtension_Clamor>();
+        _ = def.GetModExtension<AbilityExtension_Clamor>();
         if (targetCell.IsValid)
         {
             foreach (var pawn3 in list)
@@ -183,10 +183,7 @@ public class Ability_WorldTeleportAnomaly : Ability
             if (caravan != null)
             {
                 caravan.pawns.TryTransferAllToContainer(caravan2.pawns);
-                caravan2.Notify_Merged(new List<Caravan>
-                {
-                    caravan
-                });
+                caravan2.Notify_Merged([caravan]);
                 caravan.Destroy();
             }
             else

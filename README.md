@@ -74,10 +74,6 @@ Most of the sound effects are from freesound.org
 Most of the non-base-game items used in mod description images are from vanilla expanded series.
 
 And of course, Rimworld is owned by Tynan Sylvester.
-
-If you enjoy the content I'm making, you can buy me some coffee. Thanks!
-https://ko-fi.com/ushankas]![Image](https://i.imgur.com/8rnNAct.png)
-
 	
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -85,9 +81,13 @@ https://ko-fi.com/ushankas]![Image](https://i.imgur.com/8rnNAct.png)
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
+
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2889861094]![Image](https://img.shields.io/github/v/release/emipa606/MatrixRimloaded?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

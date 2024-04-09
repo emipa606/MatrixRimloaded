@@ -10,7 +10,6 @@ public static class MatrixRimloaded
     {
         Log.Message("Matrix rimloading... loaded.");
 
-        var harmony = new Harmony("rimworld.mod.ushankas.matrix");
-        harmony.PatchAll();
+        new Harmony("rimworld.mod.ushankas.matrix").PatchAll();
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: anomaly -->
+  <USH_Anomaly.label>anomaly</USH_Anomaly.label>
+  <!-- EN: Break the matrix itself and bend the rules dictating the world. -->
+  <USH_Anomaly.description>Break the matrix itself and bend the rules dictating the world.</USH_Anomaly.description>
+  <!-- EN: Anomalies are an uncommon type of psychic manipulators. They treat the psychic energy around them like code, striving to truly understand how it works. This deep insight gives them the foundations to fluently find backdoors in the system, find loopholes, and turn the faults in a psychic field to their advantage. -->
+  <USH_Anomaly.tooltip>Anomalies are an uncommon type of psychic manipulators. They treat the psychic energy around them like code, striving to truly understand how it works. This deep insight gives them the foundations to fluently find backdoors in the system, find loopholes, and turn the faults in a psychic field to their advantage.</USH_Anomaly.tooltip>
+</LanguageData>

@@ -7,7 +7,7 @@ using VanillaPsycastsExpanded.Skipmaster;
 using Verse;
 using Verse.AI;
 using Verse.Sound;
-using Ability = VFECore.Abilities.Ability;
+using Ability = VEF.Abilities.Ability;
 
 namespace MatrixRimloaded;
 
@@ -61,7 +61,7 @@ public class Ability_WorldTeleportAnomaly : Ability
                                                                       !PawnsToSkip().Contains(p));
     }
 
-    private bool ShouldEnterMap(GlobalTargetInfo target)
+    private bool shouldEnterMap(GlobalTargetInfo target)
     {
         if (target.WorldObject is Caravan caravan && caravan.Faction == pawn.Faction)
         {

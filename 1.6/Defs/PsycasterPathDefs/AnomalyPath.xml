@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <VanillaPsycastsExpanded.PsycasterPathDef>
+    <defName>USH_Anomaly</defName>
+    <label>anomaly</label>
+    <description>Break the matrix itself and bend the rules dictating the world.</description>
+    <background>UI/Backgrounds/AnomalyPath</background>
+    <altBackground>UI/AlternativeBackgrounds/PathBG_Anomaly</altBackground>
+    <tab>Psycasts</tab>
+    <tooltip>Anomalies are an uncommon type of psychic manipulators. They treat the psychic energy around them like code, striving to truly understand how it works. This deep insight gives them the foundations to fluently find backdoors in the system, find loopholes, and turn the faults in a psychic field to their advantage.</tooltip>
+  </VanillaPsycastsExpanded.PsycasterPathDef>
+</Defs>

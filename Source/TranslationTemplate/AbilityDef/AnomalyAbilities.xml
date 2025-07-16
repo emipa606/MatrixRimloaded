@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bullet time -->
+  <USH_BulletTime.label>bullet time</USH_BulletTime.label>
+  <!-- EN: The caster supercharges their spatial awareness and nervous system so they can react with inhuman reflexes and dodge every threatening object. This ability also increases consciousness by boosting neural connectivity. -->
+  <USH_BulletTime.description>The caster supercharges their spatial awareness and nervous system so they can react with inhuman reflexes and dodge every threatening object. This ability also increases consciousness by boosting neural connectivity.</USH_BulletTime.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_BulletTime.jobReportString>Using ability: {0}</USH_BulletTime.jobReportString>
+  <!-- EN: bullet time -->
+  <USH_BulletTime.verbProperties.label>bullet time</USH_BulletTime.verbProperties.label>
+  <!-- EN: leap of faith -->
+  <USH_JumpOfFaith.label>leap of faith</USH_JumpOfFaith.label>
+  <!-- EN: Psychically strengthens caster’s lower limbs, allowing them to jump to a desired position with great speed and height. -->
+  <USH_JumpOfFaith.description>Psychically strengthens caster’s lower limbs, allowing them to jump to a desired position with great speed and height.</USH_JumpOfFaith.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_JumpOfFaith.jobReportString>Using ability: {0}</USH_JumpOfFaith.jobReportString>
+  <!-- EN: leap of faith -->
+  <USH_JumpOfFaith.verbProperties.label>leap of faith</USH_JumpOfFaith.verbProperties.label>
+  <!-- EN: near-invulnerability -->
+  <USH_NearInvulnerability.label>near-invulnerability</USH_NearInvulnerability.label>
+  <!-- EN: Psychically strengthens skin cells, making them inhumanly resistant to sharp and blunt attacks. -->
+  <USH_NearInvulnerability.description>Psychically strengthens skin cells, making them inhumanly resistant to sharp and blunt attacks.</USH_NearInvulnerability.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_NearInvulnerability.jobReportString>Using ability: {0}</USH_NearInvulnerability.jobReportString>
+  <!-- EN: near-invulnerability -->
+  <USH_NearInvulnerability.verbProperties.label>near-invulnerability</USH_NearInvulnerability.verbProperties.label>
+  <!-- EN: strings of fate -->
+  <USH_Phasing.label>strings of fate</USH_Phasing.label>
+  <!-- EN: Psychically dematerializes the caster’s arms into a psychic field surrounding a fresh cadaver, allowing the caster to manipulate the fabric of reality in that specific area. This allows the caster to resurrect the body to near perfect health. However, the intense concentration and psychic stress created from performing this ability will put the caster into a one-day-long coma and induce a crippling amount of pain in the resurrected. -->
+  <USH_Phasing.description>Psychically dematerializes the caster’s arms into a psychic field surrounding a fresh cadaver, allowing the caster to manipulate the fabric of reality in that specific area. This allows the caster to resurrect the body to near perfect health. However, the intense concentration and psychic stress created from performing this ability will put the caster into a one-day-long coma and induce a crippling amount of pain in the resurrected.</USH_Phasing.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_Phasing.jobReportString>Using ability: {0}</USH_Phasing.jobReportString>
+  <!-- EN: strings of fate -->
+  <USH_Phasing.verbProperties.label>strings of fate</USH_Phasing.verbProperties.label>
+  <!-- EN: superhuman speed -->
+  <USH_PowerFists.label>superhuman speed</USH_PowerFists.label>
+  <!-- EN: Psychically increases energy production in mitochondria, simultaneously magnifying the caster’s metabolism while greatly boosting their movement speed and melee prowess. -->
+  <USH_PowerFists.description>Psychically increases energy production in mitochondria, simultaneously magnifying the caster’s metabolism while greatly boosting their movement speed and melee prowess.</USH_PowerFists.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_PowerFists.jobReportString>Using ability: {0}</USH_PowerFists.jobReportString>
+  <!-- EN: superhuman speed -->
+  <USH_PowerFists.verbProperties.label>superhuman speed</USH_PowerFists.verbProperties.label>
+  <!-- EN: psychic flight -->
+  <USH_PsychicFlight.label>psychic flight</USH_PsychicFlight.label>
+  <!-- EN: Manipulates natural psychic fields so they can interact with the casters physical body and move it across the world in a range of eight tiles. Before take off, the flyer can take a few people surrounding him to fly with him. -->
+  <USH_PsychicFlight.description>Manipulates natural psychic fields so they can interact with the casters physical body and move it across the world in a range of eight tiles. Before take off, the flyer can take a few people surrounding him to fly with him.</USH_PsychicFlight.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_PsychicFlight.jobReportString>Using ability: {0}</USH_PsychicFlight.jobReportString>
+  <!-- EN: psychic flight -->
+  <USH_PsychicFlight.verbProperties.label>psychic flight</USH_PsychicFlight.verbProperties.label>
+  <!-- EN: skill hack -->
+  <USH_SkillSetLoad.label>skill hack</USH_SkillSetLoad.label>
+  <!-- EN: Hacks a distant, ancient server that contains knowledge of a desired skill set and then rips the collected data to the targeted mind. The sheer amount of psychic stress accumulated all at once from using this ability leads to the caster falling into a two hour long psychic coma. -->
+  <USH_SkillSetLoad.description>Hacks a distant, ancient server that contains knowledge of a desired skill set and then rips the collected data to the targeted mind. The sheer amount of psychic stress accumulated all at once from using this ability leads to the caster falling into a two hour long psychic coma.</USH_SkillSetLoad.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_SkillSetLoad.jobReportString>Using ability: {0}</USH_SkillSetLoad.jobReportString>
+  <!-- EN: skill hack -->
+  <USH_SkillSetLoad.verbProperties.label>skill hack</USH_SkillSetLoad.verbProperties.label>
+  <!-- EN: hyper-vision -->
+  <USH_Supervision.label>hyper-vision</USH_Supervision.label>
+  <!-- EN: Bestows a higher awareness of the surroundings and makes the caster see the world as it really is. With enhanced vision and reflexes, the caster is able to shoot far more swiftly and accurately. -->
+  <USH_Supervision.description>Bestows a higher awareness of the surroundings and makes the caster see the world as it really is. With enhanced vision and reflexes, the caster is able to shoot far more swiftly and accurately.</USH_Supervision.description>
+  <!-- EN: Using ability: {0} -->
+  <USH_Supervision.jobReportString>Using ability: {0}</USH_Supervision.jobReportString>
+  <!-- EN: hyper-vision -->
+  <USH_Supervision.verbProperties.label>hyper-vision</USH_Supervision.verbProperties.label>
+</LanguageData>

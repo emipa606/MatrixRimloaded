@@ -14,7 +14,7 @@ public class Ability_Phasing : Ability_TargetCorpse
         foreach (var target in targets)
         {
             var thing = target.Thing as Corpse;
-            Resurrect(thing);
+            resurrect(thing);
         }
     }
 
@@ -23,7 +23,7 @@ public class Ability_Phasing : Ability_TargetCorpse
         toil.WithEffect(USH_DefOf.USH_HackingBody, TargetIndex.A);
     }
 
-    protected void Resurrect(Corpse target)
+    private static void resurrect(Corpse target)
     {
         var innerPawn = target.InnerPawn;
         var hediffs = innerPawn.health.hediffSet.hediffs;

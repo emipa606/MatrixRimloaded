@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using System.Reflection;
+using HarmonyLib;
 using Verse;
 
 namespace MatrixRimloaded.Patch;
@@ -8,8 +9,6 @@ public static class MatrixRimloaded
 {
     static MatrixRimloaded()
     {
-        Log.Message("Matrix rimloading... loaded.");
-
-        new Harmony("rimworld.mod.ushankas.matrix").PatchAll();
+        new Harmony("rimworld.mod.ushankas.matrix").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: psychic rush -->
+  <USH_AdrenalineRush.label>psychic rush</USH_AdrenalineRush.label>
+  <!-- EN: Psychically induced adrenaline rush, increasing sight, hearing and movement capabilities. -->
+  <USH_AdrenalineRush.description>Psychically induced adrenaline rush, increasing sight, hearing and movement capabilities.</USH_AdrenalineRush.description>
+  <!-- EN: blade focus -->
+  <USH_BladeFocus.label>blade focus</USH_BladeFocus.label>
+  <!-- EN: Psychically induced combat focus, greatly enhancing melee combat capabilities. -->
+  <USH_BladeFocus.description>Psychically induced combat focus, greatly enhancing melee combat capabilities.</USH_BladeFocus.description>
+  <!-- EN: bullet time -->
+  <USH_BulletDodge.label>bullet time</USH_BulletDodge.label>
+  <!-- EN: Psychically induced agility boost, greatly increasing movement speed. -->
+  <USH_BulletDodge.description>Psychically induced agility boost, greatly increasing movement speed.</USH_BulletDodge.description>
+  <!-- EN: psychic frenzy -->
+  <USH_ControlledFrenzy.label>psychic frenzy</USH_ControlledFrenzy.label>
+  <!-- EN: Temporary, psychically induced frenzy. The energy restores itself with each consecutive kill. -->
+  <USH_ControlledFrenzy.description>Temporary, psychically induced frenzy. The energy restores itself with each consecutive kill.</USH_ControlledFrenzy.description>
+  <!-- EN: firing focus -->
+  <USH_FiringFocus.label>firing focus</USH_FiringFocus.label>
+  <!-- EN: Psychically induced combat focus, greatly enhancing ranged combat capabilities. -->
+  <USH_FiringFocus.description>Psychically induced combat focus, greatly enhancing ranged combat capabilities.</USH_FiringFocus.description>
+  <!-- EN: guided shot -->
+  <USH_GuidedShot.label>guided shot</USH_GuidedShot.label>
+  <!-- EN: Psychically induced insane accuracy. -->
+  <USH_GuidedShot.description>Psychically induced insane accuracy.</USH_GuidedShot.description>
+  <!-- EN: near-invulnerability -->
+  <USH_NearInvulnerability.label>near-invulnerability</USH_NearInvulnerability.label>
+  <!-- EN: Psychically induced agility boost, greatly increasing movement speed. -->
+  <USH_NearInvulnerability.description>Psychically induced agility boost, greatly increasing movement speed.</USH_NearInvulnerability.description>
+  <!-- EN: superhuman speed -->
+  <USH_PowerFists.label>superhuman speed</USH_PowerFists.label>
+  <!-- EN: Placeholder. -->
+  <USH_PowerFists.description>Placeholder.</USH_PowerFists.description>
+  <!-- EN: hyper-vision -->
+  <USH_Supervision.label>hyper-vision</USH_Supervision.label>
+  <!-- EN: Psychically induced agility boost, greatly increasing movement speed. -->
+  <USH_Supervision.description>Psychically induced agility boost, greatly increasing movement speed.</USH_Supervision.description>
+</LanguageData>

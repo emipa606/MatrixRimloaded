@@ -22,7 +22,7 @@ public class Dialog_ChooseMatrixSkill : Window
         absorbInputAroundWindow = true;
     }
 
-    public override Vector2 InitialSize => new Vector2(200f, 500f);
+    public override Vector2 InitialSize => new(200f, 500f);
 
     public override void DoWindowContents(Rect inRect)
     {
@@ -38,10 +38,8 @@ public class Dialog_ChooseMatrixSkill : Window
         {
             var y = 0.0f;
 
-            var foundSkill = false;
             foreach (var skill in DefDatabase<SkillDef>.AllDefs)
             {
-                foundSkill = true;
                 var rect = new Rect(0.0f, y, viewRect.width * 0.7f, 32f)
                 {
                     x = outRect.center.x - 63f,
@@ -50,18 +48,13 @@ public class Dialog_ChooseMatrixSkill : Window
                 if (Widgets.ButtonText(rect, skill.defName))
                 {
                     skillWasChosen = true;
-                    skillHack.skillToLearn = skill;
+                    skillHack.SkillToLearn = skill;
                     SoundDefOf.Click.PlayOneShotOnCamera();
                     Close();
                     return;
                 }
 
                 y += 35f;
-            }
-
-            if (foundSkill)
-            {
-                y += 15f;
             }
         }
         finally

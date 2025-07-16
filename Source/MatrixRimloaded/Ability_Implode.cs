@@ -1,6 +1,6 @@
 ﻿using RimWorld.Planet;
+using VEF.Abilities;
 using Verse;
-using VFECore.Abilities;
 
 namespace MatrixRimloaded;
 

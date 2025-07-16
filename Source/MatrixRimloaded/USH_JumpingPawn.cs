@@ -1,8 +1,8 @@
 ﻿using RimWorld;
 using UnityEngine;
+using VEF.Abilities;
 using Verse;
 using Verse.Sound;
-using VFECore.Abilities;
 
 namespace MatrixRimloaded;
 

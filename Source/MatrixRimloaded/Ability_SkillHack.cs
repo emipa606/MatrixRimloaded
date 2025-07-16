@@ -2,13 +2,13 @@
 using RimWorld.Planet;
 using Verse;
 using Verse.AI;
-using Ability = VFECore.Abilities.Ability;
+using Ability = VEF.Abilities.Ability;
 
 namespace MatrixRimloaded;
 
 public class Ability_SkillHack : Ability
 {
-    public SkillDef skillToLearn;
+    public SkillDef SkillToLearn;
 
     public override void DoAction()
     {
@@ -19,7 +19,7 @@ public class Ability_SkillHack : Ability
     public override void Cast(params GlobalTargetInfo[] targets)
     {
         base.Cast(targets);
-        if (skillToLearn == null)
+        if (SkillToLearn == null)
         {
             pawn.jobs.EndCurrentJob(JobCondition.InterruptForced);
             Messages.Message("USH_NoSkillChosen".Translate(), CasterPawn, MessageTypeDefOf.NeutralEvent, false);
@@ -28,7 +28,7 @@ public class Ability_SkillHack : Ability
         foreach (var target in targets)
         {
             var targetP = target.Thing as Pawn;
-            targetP?.skills.GetSkill(skillToLearn).Learn(35000f, true);
+            targetP?.skills.GetSkill(SkillToLearn).Learn(35000f, true);
         }
     }
 

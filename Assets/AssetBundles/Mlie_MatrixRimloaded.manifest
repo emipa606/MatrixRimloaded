@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 4046901712
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 79fd6e5910998f8d69b33504482a37f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 79fd6e5910998f8d69b33504482a37f5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_Phasing_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/PowerFists.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Effects/Anomaly/GreenSymbols/SymbolA.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Effects/Anomaly/BlackOpacityOneProcent.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Effects/Anomaly/GreenSymbols/SymbolC.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/PsychicFlight.png
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycast_JumpOfFaith_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/Implosion.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/UI/Backgrounds/AnomalyPath.png
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_NearInvulnerability_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Effects/Anomaly/GreenSparks/SparkGreen.png
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_PowerFists_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycast_JumpOfFaith_Land_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_PsychicFlight_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Textures/UI/AlternativeBackgrounds/PathBG_Anomaly.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/Telekinesis.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/SkillSetLoad.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Effects/Anomaly/Matrix.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Effects/Anomaly/GreenSymbols/SymbolB.png
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_BulletDodge_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_SkillSetHack_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/BulletTime.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/Supervision.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/Phasing.png
+- Assets/Data/Mlie.MatrixRimloaded/Sounds/Anomaly/Psycats_Supervision_Cast_01.ogg
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/NearInvulnerability.png
+- Assets/Data/Mlie.MatrixRimloaded/Textures/Abilities/Anomaly/JumpOfFaith.png
+Dependencies: []

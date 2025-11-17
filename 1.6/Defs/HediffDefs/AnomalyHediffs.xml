@@ -73,7 +73,7 @@
         <hungerRateFactor>4</hungerRateFactor>
         <statFactors>
           <MoveSpeed>3</MoveSpeed>
-          <VEF_MeleeAttackSpeedFactor>4</VEF_MeleeAttackSpeedFactor>
+          <MeleeCooldownFactor>0.25</MeleeCooldownFactor>
           <VEF_MeleeAttackDamageFactor>0.7</VEF_MeleeAttackDamageFactor>
           <VEF_RangedCooldownFactor>0.6</VEF_RangedCooldownFactor>
         </statFactors>
@@ -102,7 +102,7 @@
     <stages>
       <li>
         <statFactors>
-          <VEF_MeleeAttackSpeedFactor>2</VEF_MeleeAttackSpeedFactor>
+          <MeleeCooldownFactor>0.5</MeleeCooldownFactor>
         </statFactors>
       </li>
     </stages>

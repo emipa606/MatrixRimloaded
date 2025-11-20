@@ -119,7 +119,7 @@
     <stages>
       <li>
         <statFactors>
-          <VEF_RangeAttackSpeedFactor>5</VEF_RangeAttackSpeedFactor>
+          <RangedCooldownFactor>0.2</RangedCooldownFactor>
         </statFactors>
       </li>
     </stages>
